@@ -1,0 +1,19 @@
+h1{
+background-color: rgb(33, 189, 228);
+font-size: 48px;
+font-family:"Lucida Sans";
+font-style: italic;
+text-align: center;
+padding: 20px;
+border-radius: 8px;
+color: white;
+}
+
+body { 
+font-family: monospace;
+font-size: 21px;
+background-image: url("colegio.jpg");
+background-size: cover;
+background-position-x: center;
+background-repeat: no-repeat;
+}

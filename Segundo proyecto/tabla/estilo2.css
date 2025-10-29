@@ -1,0 +1,23 @@
+h1 {background-color: rgb(96, 181, 200);
+font-size: 48px;
+font-family:"Lucida Sans";
+font-style: italic;
+text-align: center;
+padding: 20px;
+border-radius: 8px;
+color: black;
+}
+body{
+    background-image: url("fondo.jpg");
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 22px;
+    background-color: burlywood;
+
+}th, td {
+    border: 2px solid rgb(24, 79, 209);
+    padding: 12px;
+    text-align: center;
+}

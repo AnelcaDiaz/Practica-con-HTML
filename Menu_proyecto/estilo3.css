@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("dog.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #1093ad;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+h1{
+    font-size: 48px;
+    font-family:"sanid sans";
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(234, 240, 239);
+}
+
+p{
+    text-decoration: solid;
+    font-size: 29px;
+    font-family: "Cambria";
+    font-style: normal;
+}
+nav {
+    background-color: #13b285;
+}
+nav ul {
+    margin: 0;
+    padding: 0 20px;
+    list-style: none;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+}
+nav > ul > li {
+    position: relative;
+    margin-right: 30px;
+}
+nav > ul > li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 8px;
+    white-space: nowrap;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+  /* Estilos para submenú */
+nav ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0d74d5;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    min-width: 160px;
+    display: none;
+    z-index: 1000;
+    border-radius: 0 0 6px 6px;
+}
+nav ul li ul li {
+    margin: 0;
+}
+nav ul li ul li a {
+    padding: 10px 15px;
+    color: white;
+    font-weight: normal;
+}
+nav ul li ul li a:hover {
+    background-color: #474242;
+    text-decoration: none;
+}
+  /* Mostrar submenu al pasar el mouse */
+nav ul li:hover > ul {
+    display: block;
+}
+
+ul{
+    font-size: 29px;
+}
+li{
+    font-size: 29px;
+}

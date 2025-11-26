@@ -1,0 +1,86 @@
+/* ----- Para que la página sea vertical tipo hoja ----- */
+body {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor tipo hoja carta/A4 */
+.container-fluid {
+    background: white;
+    width: 850px;      /* ANCHO HOJA CARTA */
+    min-height: 1100px; /* ALTO APROX HOJA (vertical) */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: 1px solid #ddd;
+}
+
+/* ----- Sidebar vertical (izquierda) ----- */
+.sidebar {
+    background-color: #313ca164;
+    min-height: 1100px;  /* se alinea con la hoja vertical */
+    padding: 25px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sidebar-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Para que el correo NO se salga */
+.sidebar p {
+    font-size: 14px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* ----- Competencias ----- */
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* ----- Contenido principal vertical ----- */
+.nombre {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.seccion {
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+    margin-top: 20px;
+    padding-bottom: 4px;
+}
+
+.formacion-titulo {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fecha {
+    float: right;
+    font-size: 14px;
+}
+
+.lugar {
+    font-size: 14px;
+}
